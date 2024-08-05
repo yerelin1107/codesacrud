@@ -1,0 +1,25 @@
+<div>
+  <div class="container mt-5">
+    <div class="card">
+      <div class="card-header">
+        <h4 >Creacion de Producto</h4>
+        <a href="/products" class="btn btn-dark float-end">Volver</a>
+      </div>
+  <div class="card-body">
+    <form (ngSubmit)="saveproduct()">
+      <div class="mb-3">
+        <label for="name">Nombre</label>
+        <input type="text" [(ngModel)]="name" name="name" id="name" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label for="price">Precio</label>
+        <input type="price" [(ngModel)]="price" name="price" id="priceww" class="form-control">
+      </div>
+      <div class="mb-3">
+        <button type="submit" class="btn btn-success"><i class="fa-solid fa-floppy-disk" style="margin-right: 8px;"></i>Guardar</button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>

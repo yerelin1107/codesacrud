@@ -1,0 +1,25 @@
+<div>
+  <div class="container mt-5">
+    <div class="card">
+      <div class="card-header">
+        <h4>Editar Producto</h4>
+        <a href="/products" class="btn btn-danger float-end">Volver</a>
+      </div>
+      <div class="card-body">
+        <form (ngSubmit)="updateProduct()">
+          <div class="mb-3">
+            <label for="name">Nombre</label>
+            <input type="text" [(ngModel)]="product.name" name="name" id="name" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="price">Precio</label>
+            <input type="price" [(ngModel)]="product.price" name="price" id="price" class="form-control">
+          </div>
+          <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Actualizar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

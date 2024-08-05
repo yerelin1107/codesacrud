@@ -1,0 +1,41 @@
+/*  archivo CSS */
+
+.navbar {
+    background-color: #004085; /* Color de fondo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #ffffff; /* Color del texto */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Tamaño de la fuente */
+    padding-left: 1rem; /* Espacio a la izquierda */
+  }
+  
+  .navbar-brand:hover, .nav-link:hover {
+    color: #cccccc; /* Color del texto al pasar el mouse */
+  }
+  
+  .nav-link {
+    font-size: 1.2rem; /* Tamaño de la fuente */
+    margin-right: 1rem; /* Espacio entre los enlaces */
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  .nav-link:hover {
+    border-bottom: 2px solid #ffffff; /* Borde inferior al pasar el mouse */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+    
+    .nav-link {
+      font-size: 1rem;
+    }
+  }
+  
